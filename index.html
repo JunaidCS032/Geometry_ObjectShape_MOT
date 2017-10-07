@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--  -->
 <html>
   <body>
     
@@ -6,8 +7,11 @@
     <center><h3><i> Sarthak Sharma<sup>*</sup>, Junaid Ahmed Ansari<sup>*</sup>, J. Krishna Murthy, and K. Madhava Krishna</i></h3></center>
     <center><h3>International Institute of Information Technology, Hyderabad. INDIA </h3></center><br>
 
-    <center><img src="teaser_final.png" alt="Mountain View" style="width:950px;height:320px;"></center><br>
-    <center><font size="1.5">(An illustration of the proposed method. The first two rows show objects tracks in frames t and t + 1. The bottom row depicts how 3D position
+    <center><img src="teaser_final.png" alt="Mountain View" style="width:800px;height:300px;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DpmzQSXhZko?rel=0" frameborder="0" allowfullscreen></iframe>
+    </center><br>
+    
+    <center><font size="1.5">(Above figure: An illustration of the proposed method. The first two rows show objects tracks in frames t and t + 1. The bottom row depicts how 3D position
     and orientation information is propagated from frame t to frame t + 1. This information is used to specify search areas for each object in the subsequent
     frame, and this greatly reduces the number of pairwise costs that are to be computed.) </font></center> <br>
     
@@ -32,16 +36,13 @@
     <img src="MOTP.png" alt="Mountain View" style="width:300px;height:250px;">
     <img src="MT.png" alt="Mountain View" style="width:300px;height:250px;">
     <img src="ML.png" alt="Mountain View" style="width:300px;height:250px;"></center><br>
-    <font size="2"><b>MOTA</b>(Multi-Object Tracking Accuracy):  Indicates how consistently a target is tracked.</font><br>
-    <font size="2"><b>MOTP</b>(Multi-Object Tracking Precision): Indicates how precisely target is localized.</font><br>
-    <font size="2"><b>MT</b>(Mostly Tracked): Percentage of cars that are tracked correctly for 80% of the trajectory. Higher is better</font><br>
-    <font size="2"><b>ML</b>(Mostly Lost): Percentage of cars that are not correctly tracked for 80% of the trajectory. Lower is better</font><br>
+    <font size="2"><b>MOTA(Multi-Object Tracking Accuracy):</b> Indicates how consistently a target is tracked.</font><br>
+    <font size="2"><b>MOTP(Multi-Object Tracking Precision):</b> Indicates how precisely target is localized.</font><br>
+    <font size="2"><b>MT(Mostly Tracked):</b> Percentage of cars that are tracked correctly for 80% of the trajectory. Higher is better</font><br>
+    <font size="2"><b>ML(Mostly Lost):</b> Percentage of cars that are not correctly tracked for 80% of the trajectory. Lower is better</font><br>
     
-    
-    
-    <font size="2">Please note that our method is completely online i.e. two frame based approach, and no optimization is applied. We will soon be releasing the code with 
-    and without optimization.</font><br>
-    
+    <font size="2">(Please note that our method is completely online i.e. two frame based approach, and no optimization is applied. We will soon be releasing the code with 
+    and without optimization.)</font>   
     
     <h3>Tracking results on KITTI Test Sequences 1-28</h3>  
 
