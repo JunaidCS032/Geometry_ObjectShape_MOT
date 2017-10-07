@@ -8,8 +8,8 @@
 
     <center><img src="teaser_final.png" alt="Mountain View" style="width:950px;height:320px;"></center><br>
     <center><font size="1.5">(An illustration of the proposed method. The first two rows show objects tracks in frames t and t + 1. The bottom row depicts how 3D position
-and orientation information is propagated from frame t to frame t + 1. This information is used to specify search areas for each object in the subsequent
-      frame, and this greatly reduces the number of pairwise costs that are to be computed.) </font></center> <br>
+    and orientation information is propagated from frame t to frame t + 1. This information is used to specify search areas for each object in the subsequent
+    frame, and this greatly reduces the number of pairwise costs that are to be computed.) </font></center> <br>
     
     <h3>Abstract</h3>
     <b><i> This paper introduces geometry and novel object shape and pose costs for multi-object tracking in road
@@ -23,7 +23,13 @@ and orientation information is propagated from frame t to frame t + 1. This info
     the simplest of associations frameworks (two-frame Hungarian assignment), we surpass the state-of-the-art in multi-object-
       tracking on road scenes.</b></i>    
     
-    <h2><font color="green">  The proposed method (RRC-IIITH) is currently state-of-the-art (amongst the published approaches) on the KITTI Object Tracking leaderboard. Evaluation results can be found <a href="http://www.cvlibs.net/datasets/kitti/eval_tracking_detail.php?result=43713ff142271660c77d258af6bdbceb079db678">here</a></font></h2>
+    <h3><font color="green">  The proposed method (RRC-IIITH) is currently state-of-the-art (amongst the published approaches) on the KITTI Object Tracking leaderboard. Evaluation results can be found <a href="http://www.cvlibs.net/datasets/kitti/eval_tracking_detail.php?result=43713ff142271660c77d258af6bdbceb079db678">here</a></font></h3>
+    
+    <h3>Comparision with other published approaches.</h3>
+    <font size="2">(Please note that ours is a completely online approach i.e. the results are out 
+        of two frame only and no optimization is applied. (We will soon be releasing the code with 
+        and without optimization)</font><br>
+    <center><img src="MOTA.png" alt="Mountain View" style="width:400px;height:350px;"></center><br>
     
     <h3>Tracking results on KITTI Test Sequences 1-28</h3>  
 
